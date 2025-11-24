@@ -4,7 +4,7 @@ A clean, modern, dark-themed notes application built using React + Redux + Vite 
 
 
 🚀 Tech Stack
-<p> <img src="https://img.shields.io/badge/React-blue?logo=react&style=for-the-badge" /> <img src="https://img.shields.io/badge/Vite-purple?logo=vite&style=for-the-badge" /> <img src="https://img.shields.io/badge/Redux-Toolkit-764abc?logo=redux&style=for-the-badge" /> <img src="https://img.shields.io/badge/TailwindCSS-3.4-38bdf8?logo=tailwindcss&style=for-the-badge" /> <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" /> </p>
+<p> <img src="https://img.shields.io/badge/React-blue?logo=react&style=for-the-badge" /> <img src="https://img.shields.io/badge/Vite-purple?logo=vite&style=for-the-badge" /> <img src="https://img.shields.io/badge/Redux-Toolkit-764abc?logo=redux&style=for-the-badge" /> <img src="https://img.shields.io/badge/TailwindCSS-38bdf8?logo=tailwindcss&style=for-the-badge" /> </p>
 
 📝 About the Project
 
