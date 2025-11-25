@@ -32,11 +32,9 @@ export const Home = () => {
     }
 
     if (noteId) {
-      // Update existing note
       dispatch(updateToNotes(note));
     }
     else {
-      // Create new note
       dispatch(addToNotes(note));
     }
 
@@ -49,7 +47,6 @@ export const Home = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 my-6">
 
-      {/* Title + Button Row */}
       <div className="flex items-center gap-4">
         <input
           className="flex-1 p-3 rounded-md bg-[#1a1a1a] border border-gray-700 
@@ -69,7 +66,6 @@ export const Home = () => {
         </button>
       </div>
 
-      {/* Content Box */}
       <div className="mt-4">
         <textarea
           className="w-full p-4 rounded-md bg-[#1a1a1a] border border-gray-700 

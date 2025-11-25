@@ -11,13 +11,13 @@ A clean, modern, dark-themed notes application built using React + Redux + Vite 
 NotesApp is a lightweight note-taking tool that focuses on speed, simplicity, and clean UI.
 You can:
 
-✔ Create new notes
-✔ Edit existing notes
-✔ View notes on a separate page
-✔ Delete notes
-✔ Search instantly
-✔ Copy note content to clipboard
-✔ Beautiful dark theme UI
+- ✔ **Create new notes**
+- ✔ **Edit existing notes**
+- ✔ **View notes on a separate page**
+- ✔ **Delete notes**
+- ✔ **Search instantly**
+- ✔ **Copy note content to clipboard**
+- ✔ **Beautiful dark theme UI**
 
 ✨ Features:
 

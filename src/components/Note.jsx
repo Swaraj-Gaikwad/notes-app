@@ -21,7 +21,7 @@ export const Note = () => {
     return (
         <div className="max-w-7xl mx-auto mt-6">
 
-            {/* Search Bar */}
+           
             <div className="mb-6">
                 <input
                     className="w-full p-3 rounded bg-gray-800 text-white placeholder-gray-400 
@@ -34,7 +34,7 @@ export const Note = () => {
                 />
             </div>
 
-            {/* Notes Grid */}
+
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
 
                 {filteredData.length > 0 ? (
@@ -56,10 +56,10 @@ export const Note = () => {
                             </p>
 
 
-                            {/* Buttons Row */}
+        
                             <div className="flex flex-wrap gap-3">
 
-                                {/* Edit Button */}
+     
                                 <Link to={`/?noteId=${note?._id}`}>
                                     <button className="px-4 py-2 rounded 
                                                        text-white text-sm transition">
@@ -67,7 +67,7 @@ export const Note = () => {
                                     </button>
                                 </Link>
 
-                                {/* View Button */}
+                          
                                 <Link to={`/notes/${note?._id}`}>
                                     <button className="px-4 py-2 rounded 
                                                        text-white text-sm transition">
@@ -75,7 +75,6 @@ export const Note = () => {
                                     </button>
                                 </Link>
 
-                                {/* Delete Button */}
                                 <button
                                     onClick={() => handleDelete(note?._id)}
                                     className="px-4 py-2 rounded
@@ -84,7 +83,6 @@ export const Note = () => {
                                     Delete
                                 </button>
 
-                                {/* Copy Button */}
                                 <button
                                     onClick={() => {
                                         navigator.clipboard.writeText(note.content);

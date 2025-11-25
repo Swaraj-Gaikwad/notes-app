@@ -15,9 +15,9 @@ export const ViewNote = () => {
     }
 
     return (
-        <div className="max-w-screen-xl mx-auto px-12 my-10">   {/* ⬅ MUCH wider container */}
+        <div className="max-w-screen-xl mx-auto px-12 my-10">   
 
-            {/* Title */}
+         
             <div className="flex items-center gap-4">
                 <input
                     className="w-full p-4 text-lg rounded-md bg-[#1a1a1a] border border-gray-700 
@@ -28,7 +28,7 @@ export const ViewNote = () => {
                 />
             </div>
 
-            {/* Content */}
+            
             <div className="mt-6">
                 <textarea
                     className="w-full p-4 text-md rounded-md bg-[#1a1a1a] border border-gray-700 
